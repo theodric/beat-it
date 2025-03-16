@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "theodric@github.io",
+                "Name": "Theodric"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Shows the time in Swatch Internet Beats",
+        "Icon": "battery",
+        "Id": "com.github.theodric.beat-it",
+        "Name": "beat It",
+        "Version": "1",
+        "Website": "https://github.com/theodric/beat-it"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
