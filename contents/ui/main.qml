@@ -40,7 +40,8 @@ PlasmoidItem {
     PlasmaComponents.Label {
         id: timeLabel
         anchors.centerIn: parent
-        font.pointSize: 12
+        anchors.verticalCenterOffset: -1
+	font.pointSize: 12
         text: getInternetTime()
     }
 }
