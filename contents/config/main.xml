@@ -11,7 +11,7 @@
         </entry>
         <entry name="verticalOffset" type="Int">
             <label>Vertical Offset</label>
-            <default>-2</default>
+            <default>-1</default>
         </entry>
         <entry name="widgetWidth" type="Int">
             <label>Widget Width</label>
