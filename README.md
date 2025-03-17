@@ -3,6 +3,7 @@
 A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats" *(only 90s kids will remember)*
 
 ------
+## About Beat-It!
 * Do you remember Swatch Internet Time from back in the days of breathless optimism about the Internet?  
 * Does "beats" ring a bell with you?  
 * Do you always crack a beer at @666?  
@@ -13,7 +14,7 @@ A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](ht
 "Beat-It!" is an implementation of Swatch Internet Time which displays the current time in "beats" as a Plasma 6 Plasmoid. In your menubar, on your desktop, on some third thing not yet conceived-- these three numbers preceded by a glyph can be your constant companion as you beat your way through the day, never sleeping, always beating, and occasionally cracking a new beer.  
 
 ------
-## Overview
+## UI Overview
 The plasmoid in both menubar and desktop guises:  
 ![the moid as it be](beat-it-screenshot.png)  
 
