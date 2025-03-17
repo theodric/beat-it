@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="fontSize" type="Int">
+            <label>Font Size</label>
+            <default>12</default>
+        </entry>
+        <entry name="verticalOffset" type="Int">
+            <label>Vertical Offset</label>
+            <default>-2</default>
+        </entry>
+        <entry name="widgetWidth" type="Int">
+            <label>Widget Width</label>
+            <default>50</default>
+        </entry>
+    </group>
+</kcfg>
