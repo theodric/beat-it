@@ -8,7 +8,7 @@ Does "beats" ring a bell with you?
 Do you always crack a beer at @666?  
 Are you experiencing renal failure?  
 
-If you answered "yes" to one or more of these questions, ask your doctor if "Beat-It!" is right for you.  
+If you answered "yes" to one or more of these questions, ask your doctor if "Beat-It!" is right for you!  
 
 "Beat-It!" is an implementation of Swatch Internet Time which displays the current time in "beats" as a Plasma 6 Plasmoid. In your menubar, on your desktop, on some third thing not yet conceived-- these three numbers preceded by a glyph can be your constant companion as you beat your way through the day, never sleeping, always beating, and occasionally cracking a new beer.  
 
