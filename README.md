@@ -1,6 +1,8 @@
 # Beat-It!
 A Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats"  
 *(only 90s kids will remember)*
+![the moid as it be](beat-it-screenshot.png)  
+![config panel](configpanel.png)
 
 **I DID NOT WRITE THIS!**  
 Not exactly, anyway. This was created as an experiment in 'vibe coding' which I decided to undertake after reading about it on Twitter.
