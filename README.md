@@ -2,7 +2,7 @@
 A Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats"  
 *(only 90s kids will remember)*  
 
-The plasmoid:  
+The plasmoid in both menubar and desktop guises:  
 ![the moid as it be](beat-it-screenshot.png)  
 
 Its config panel:  
