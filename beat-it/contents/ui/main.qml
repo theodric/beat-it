@@ -19,7 +19,7 @@ PlasmoidItem {
         running: true  // Changed to always run
         repeat: true
         onTriggered: {
-            console.log("Timer triggered")  // Debug log
+//            console.log("Timer triggered")  // Debug log
             timeLabel.text = getInternetTime()
         }
     }
