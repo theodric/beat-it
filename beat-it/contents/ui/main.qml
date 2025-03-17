@@ -14,10 +14,12 @@ PlasmoidItem {
     height: Kirigami.Units.gridUnit * 2
     
     Timer {
-        interval: 1000
-        running: Plasmoid.active
+        id: updateTimer
+        interval: 100
+        running: true  // Changed to always run
         repeat: true
         onTriggered: {
+            console.log("Timer triggered")  // Debug log
             timeLabel.text = getInternetTime()
         }
     }
@@ -43,5 +45,26 @@ PlasmoidItem {
         anchors.verticalCenterOffset: Plasmoid.configuration.verticalOffset
         font.pointSize: Plasmoid.configuration.fontSize
         text: getInternetTime()
+        
+        Component.onCompleted: {
+            console.log("Label completed")  // Debug log
+            timeLabel.text = getInternetTime()
+        }
+    }
+    
+    Component.onCompleted: {
+        console.log("Root completed")  // Debug log
+        updateTimer.start()  // Explicitly start the timer
+    }
+    
+    Connections {
+        target: Plasmoid
+        function onActiveChanged() {
+            console.log("Active changed:", Plasmoid.active)  // Debug log
+            if (Plasmoid.active) {
+                timeLabel.text = getInternetTime()
+                updateTimer.restart()
+            }
+        }
     }
 }
