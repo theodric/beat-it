@@ -1,5 +1,5 @@
 # Beat-It!
-A Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats"  
+A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats"  
 *(only 90s kids will remember)*  
 
 The plasmoid in both menubar and desktop guises:  
