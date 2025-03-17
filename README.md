@@ -2,6 +2,7 @@
 
 A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats" *(only 90s kids will remember)*
 
+------
 Do you remember Swatch Internet Time from back in the days of breathless optimism about the Internet? Does "beats" ring a bell with you? Do you always crack a beer at @666? Are you experiencing renal failure?  
 
 If you answered "yes" to one or more of these questions, ask your doctor if "Beat-It!" is right for you.  
