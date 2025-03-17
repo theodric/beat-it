@@ -7,7 +7,7 @@
         "Authors": [
             {
                 "Name": "Theodric",
-                "EmailAddress": "@theodric on Twitter"
+                "EmailAddress": "theodric@github.io"
             }
         ],
         "Version": "1.0",
@@ -19,5 +19,6 @@
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/main.qml",
     "X-Plasma-Provides": ["org.kde.plasma.time"],
-    "KPackageStructure": "Plasma/Applet"
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
 }
