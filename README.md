@@ -15,11 +15,6 @@ A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](ht
 
 ------
 ## UI Overview
-The plasmoid in both menubar and desktop guises:  
-![the moid as it be](beat-it-screenshot.png)  
-
-Its config panel:  
-![config panel](configpanel.png)
 
 ## NOTA BENE  
 **I DID NOT WRITE THIS!**  
