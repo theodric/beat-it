@@ -1,19 +1,23 @@
 {
     "KPlugin": {
+        "Name": "Beat-it",
+        "Description": "Swatch Internet Time display",
+        "Icon": "clock",
+        "Category": "Time",
         "Authors": [
             {
-                "Email": "theodric@github.io",
-                "Name": "Theodric"
+                "Name": "Theodric",
+                "EmailAddress": "theodric@github.io"
             }
         ],
-        "Category": "System Information",
-        "Description": "Shows the time in Swatch Internet Beats",
-        "Icon": "battery",
+        "Version": "1.0",
+        "Website": "https://github.com/theodric/beat-it",
+        "License": "GPL-2.0+",
         "Id": "com.github.theodric.beat-it",
-        "Name": "beat It",
-        "Version": "1",
-        "Website": "https://github.com/theodric/beat-it"
+        "ConfigModule": "org.kde.plasma.configuration"
     },
-    "KPackageStructure": "Plasma/Applet",
-    "X-Plasma-API-Minimum-Version": "6.0"
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": ["org.kde.plasma.time"],
+    "KPackageStructure": "Plasma/Applet"
 }

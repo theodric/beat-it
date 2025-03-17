@@ -7,8 +7,8 @@ import org.kde.kirigami as Kirigami
 PlasmoidItem {
     id: root
     
-    Layout.minimumWidth: 60
-    Layout.preferredWidth: 60
+    Layout.minimumWidth: Plasmoid.configuration.widgetWidth
+    Layout.preferredWidth: Plasmoid.configuration.widgetWidth
     Layout.fillWidth: false
     
     height: Kirigami.Units.gridUnit * 2
@@ -40,8 +40,8 @@ PlasmoidItem {
     PlasmaComponents.Label {
         id: timeLabel
         anchors.centerIn: parent
-        anchors.verticalCenterOffset: -1
-	font.pointSize: 12
+        anchors.verticalCenterOffset: Plasmoid.configuration.verticalOffset
+        font.pointSize: Plasmoid.configuration.fontSize
         text: getInternetTime()
     }
 }
