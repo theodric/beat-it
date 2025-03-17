@@ -24,13 +24,13 @@ PlasmoidItem {
     
     function getInternetTime() {
         const now = new Date()
-        const utc = now.getTime() + (now.getTimezoneOffset() * 60000)
-        const bmt = new Date(utc + (3600000))
+        // Get UTC time and add 1 hour (3600000 ms) to get UTC+1
+        const utcPlusOne = new Date(now.getTime() + 3600000)
         
-        const seconds = (bmt.getHours() * 3600) + 
-                       (bmt.getMinutes() * 60) + 
-                       bmt.getSeconds() +
-                       (bmt.getMilliseconds() / 1000)
+        const seconds = (utcPlusOne.getUTCHours() * 3600) + 
+                       (utcPlusOne.getUTCMinutes() * 60) + 
+                       utcPlusOne.getUTCSeconds() +
+                       (utcPlusOne.getUTCMilliseconds() / 1000)
                      
         const beats = seconds / 86.4
         
