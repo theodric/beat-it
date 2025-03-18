@@ -1,6 +1,7 @@
 # Beat-It!  
 
-A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats" *(only 90s kids will remember)*
+A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) "beats" *(only 90s kids will remember)*  
+[Now available on the KDE Store!](https://store.kde.org/p/2272448)!
 
 ------
 ## About Beat-It!
