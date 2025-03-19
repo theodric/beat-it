@@ -12,16 +12,8 @@ PlasmoidItem {
     Layout.fillWidth: false
     
     height: Kirigami.Units.gridUnit * 2
-    
-    Timer {
-        id: updateTimer
-        interval: 100
-        running: true  // Changed to always run
-        repeat: true
-        onTriggered: {
-            timeLabel.text = getInternetTime()
-        }
-    }
+
+    property string currentTime: ""
     
     function getInternetTime() {
         const now = new Date()
@@ -37,33 +29,21 @@ PlasmoidItem {
         
         return '@' + Math.floor(beats).toString().padStart(3, '0')
     }
+
+    Timer {
+        id: updateTimer
+        interval: 100
+        running: true
+        repeat: true
+        triggeredOnStart: true
+        onTriggered: root.currentTime = getInternetTime()
+    }
     
     PlasmaComponents.Label {
         id: timeLabel
         anchors.centerIn: parent
         anchors.verticalCenterOffset: Plasmoid.configuration.verticalOffset
         font.pointSize: Plasmoid.configuration.fontSize
-        text: getInternetTime()
-        
-        Component.onCompleted: {
-            console.log("Label completed")  // Debug log
-            timeLabel.text = getInternetTime()
-        }
-    }
-    
-    Component.onCompleted: {
-        console.log("Root completed")  // Debug log
-        updateTimer.start()  // Explicitly start the timer
-    }
-    
-    Connections {
-        target: Plasmoid
-        function onActiveChanged() {
-            console.log("Active changed:", Plasmoid.active)  // Debug log
-            if (Plasmoid.active) {
-                timeLabel.text = getInternetTime()
-                updateTimer.restart()
-            }
-        }
+        text: root.currentTime
     }
 }
