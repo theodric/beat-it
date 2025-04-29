@@ -4,6 +4,7 @@ A KDE Plasma 6 Plasmoid displaying the current time in [Swatch Internet Time](ht
 
 [Now available on the KDE Store!](https://store.kde.org/p/2272448)
 
+(You may also enjoy [our various command-line versions](https://github.com/theodric/beats)!
 ------
 ## About Beat-It!
 * Do you remember Swatch Internet Time from back in the days of breathless optimism about the Internet?  
